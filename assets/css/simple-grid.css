@@ -196,7 +196,7 @@ p {
 
 @media only screen and (min-width: 45em) {  /* 720px */
   .col-1 {
-    width: 4.33%;
+        width: 4.33%;
   }
 
   .col-2 {
@@ -252,11 +252,5 @@ p {
   .container {
     width: 75%;
     max-width: 60rem;
-  }
-}
-
-@media all and (max-width: 28em){
-  [class*="col-"]{
-    width: 100%;
   }
 }
