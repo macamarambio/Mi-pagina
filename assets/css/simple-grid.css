@@ -254,3 +254,9 @@ p {
     max-width: 60rem;
   }
 }
+
+@media all and (max-width: 28em){
+  [class*="col-"]{
+    width: 100%;
+  }
+}
